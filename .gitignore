@@ -1,2 +1,6 @@
 jira-task/
 task/task/.env
+./task/polls/__pycache__/*.pyc
+./task/task/__pycache__/*.pyc
+venv/
+*.pyc
