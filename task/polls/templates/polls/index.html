@@ -1,0 +1,23 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+
+<h1>
+    What's your question?
+</h1>
+<form action="{% url 'polls:index' %}" method="post">
+    {% csrf_token %}
+    <div>
+        <div>
+            {{ form.question_text.label}}
+            {{ form.question_text }}
+        </div>
+    </div>
+    <div>
+        {{ form.pub_date.label }}
+        {{ form.pub_date }}
+    </div>
+    <div>
+        <input type="submit" value="Submit">
+    </div>
+</form>
