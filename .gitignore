@@ -3,3 +3,4 @@ task/task/.env
 venv/
 *.pyc
 task/polls/__pycache__/
+task/task/__pycache__/
