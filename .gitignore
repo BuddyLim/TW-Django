@@ -1,2 +1,5 @@
 jira-task/
 task/task/.env
+task/polls/migrations/__pycache__/
+venv/
+task/polls/__pycache__/
