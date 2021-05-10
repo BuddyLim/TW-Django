@@ -4,5 +4,6 @@
         "titleBar.activeBackground": "#294804",
         "titleBar.activeForeground": "#F2FDE5"
     },
-    "python.pythonPath": "C:\\Anaconda3\\envs\\d-poll\\python.exe"
+    "python.pythonPath": "/bin/python3",
+    "python.languageServer":"Pylance"
 }
